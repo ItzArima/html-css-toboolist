@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap" rel="stylesheet">
     <title>Toboolist</title>
 </head>
 <body>
@@ -22,61 +22,71 @@
     </header>
    <!-- header section end -->
     
+   <!-- main section begin -->
    <main>
-       <div id="Container">
+       <!-- Container begin -->
+        <div id="Container">
            <div id="display">
                 <div id="add_raw">
-                    <button id="subm_but" type="submit">Add Task</button>
-                    <button id="sect_but" type="submit">Add Section</button>
+                    <button id="subm_but" type="button">Add Task</button>
+                    <button  aid="sect_but" type="button">Add Section</button>
                 </div>
                 <section class="contenuto">
+                    
+                    <!-- New Tasks section begin -->
                     <div class="NewTasks">
                         <div id="stitle">
                             <i class="fa fa-caret-down"></i>
                             <span><strong>New Tasks</strong></span>
                         </div>
                         <div class="tasks">
-                            <i class="fa fa-check-circle"></i>
+                            <i id="g" class="fa fa-check-circle"></i>
                             <span>Quarterly Newsletter</span>
-                            <span class="desc-container-blue">
+                            <span id="f20" class="desc-container-blue">
                                 Editorial
                             </span>
                         </div>    
                     </div>    
+                    <!-- New Tasks section end -->
+                    
+                    <!-- Today section begin -->
                     <div class="today">
                         <div id="stitle">
                             <i class="fa fa-caret-down"></i>
                             <span><strong>Today</strong></span>
                         </div>
                         <div class="tasks">
-                            <i class="fa fa-check-circle"></i>
+                            <i id="g" class="fa fa-check-circle"></i>
                             <span>Recruiting blog posts</span>
-                            <span class="desc-container-blue">
+                            <span id="f" class="desc-container-blue">
                                 Editorial
                             </span>
                         </div>
                         <div class="tasks">
-                            <i class="fa fa-check-circle"></i>
+                            <i id="g" class="fa fa-check-circle"></i>
                             <span>Mobile app luaunch</span>
-                            <span class="desc-container-purple">
+                            <span id="f" class="desc-container-purple">
                                 Q1 Goals
                             </span>
                         </div>
                         <div class="tasks">
-                            <i class="fa fa-times-circle"></i></i>
+                            <i id="g" class="fa fa-times-circle"></i></i>
                             <span>Interview John H.</span>
-                            <span class="desc-container-green">
+                            <span id="f" class="desc-container-green">
                                 Recruiting
                             </span>
                         </div>
                         <div class="tasks">
-                            <i class="fa fa-check-circle"></i>
+                            <i id="g" class="fa fa-check-circle"></i>
                             <span>Summit update to mobile storefonts</span>
-                            <span class="desc-container-orange">
+                            <span id="f" class="desc-container-orange">
                                 mobile
                             </span>
                         </div>
                     </div>
+                    <!-- Today section end -->
+                    
+                    <!-- Upcoming section begin -->
                     <div class="Upcoming">
                         <div id="stitle">
                             <i class="fa fa-caret-down"></i>
@@ -84,35 +94,38 @@
                         </div>
                         <div class="tasks">
                             <div class="tasks">
-                                <i class="fa fa-times-circle"></i>
+                                <i id="g" class="fa fa-times-circle"></i>
                                 <span>Schedule meeting with Alex</span>
                             </div>
                             <div class="tasks">
-                                <i class="fa fa-check-circle"></i>
+                                <i id="g" class="fa fa-check-circle"></i>
                                 <span>Homepage refresh</span>
-                                <span class="desc-container-fucsia">
+                                <span id="f" class="desc-container-fucsia">
                                     Website
                                 </span>
                             </div>
                             <div class="tasks">
-                                <i class="fa fa-check-circle"></i>
+                                <i id="g" class="fa fa-check-circle"></i>
                                 <span>Onboard new Sales team members</span>
-                                <span class="desc-container-lightgreen">
+                                <span id="f" class="desc-container-lightgreen">
                                     Sales
                                 </span>
                             </div>
                             <div class="tasks">
-                                <i class="fa fa-check-circle"></i>
+                                <i id="g" class="fa fa-check-circle"></i>
                                 <span>Review editorial calendar</span>
-                                <span class="desc-container-blue">
+                                <span id="f" class="desc-container-blue">
                                     Editorial
                                 </span>
                             </div>
                         </div>
                     </div>
+                <!-- Upcoming section end -->                
                 </section>
-       </div>
-
+           </div>
+        </div>
+        <!-- container end -->
     </main>
+    <!-- main secion end -->
 </body>
 </html>
