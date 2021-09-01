@@ -38,3 +38,71 @@ button{
     padding: 20px 20px 10px 70px;
     border-bottom: 1px solid lightgrey;
 }
+
+html{
+    font-family: 'Roboto', sans-serif;
+}
+
+.desc-container-blue{
+  background-color: #45abea; 
+  color: white;
+  border-radius: 8px;
+  font-size: 10px;
+  padding: 2px 10px;
+}
+
+.desc-container-purple{
+    background-color: #9c72e4; 
+    color: white;
+    border-radius: 8px;
+    font-size: 10px;
+    padding: 2px 10px;  
+}
+
+.desc-container-green{
+    background-color: #64c0a9; 
+    color: white;
+    border-radius: 8px;
+    font-size: 10px;
+    padding: 2px 10px; 
+}
+
+.desc-container-orange{
+    background-color: #f29e33; 
+  color: white;
+  border-radius: 8px;
+  font-size: 10px;
+  padding: 2px 10px;
+}
+
+.desc-container-fucsia{
+    background-color: #d863a1; 
+  color: white;
+  border-radius: 8px;
+  font-size: 10px;
+  padding: 2px 10px;
+}
+
+.desc-container-lightgreen{
+    background-color: #b0c926; 
+  color: white;
+  border-radius: 8px;
+  font-size: 10px;
+  padding: 2px 10px;
+}
+
+.NewTasks{
+    margin: 30px 0;
+}
+
+.contenuto{
+    padding-left: 30px;
+}
+
+.today{
+    margin: 30px 0;
+}
+
+.upcoming{
+
+}

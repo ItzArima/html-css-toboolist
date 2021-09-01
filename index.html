@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <title>Toboolist</title>
 </head>
 <body>
@@ -12,8 +16,8 @@
     <!-- header section begin -->
     <header>
         <section class=Intestazione>
-            <img src="./img/Logo.png" alt="logo">
-            <span>Toboolist</span>
+            <img class="logo" src="./img/Logo.png" alt="logo">
+            <span class="maintitle">Toboolist</span>
         </section>
     </header>
    <!-- header section end -->
@@ -25,8 +29,7 @@
                     <button id="subm_but" type="submit">Add Task</button>
                     <button id="sect_but" type="submit">Add Section</button>
                 </div>
-                <hr>
-                <section>
+                <section class="contenuto">
                     <div class="NewTasks">
                         <div id="stitlenew">
                             <i class="fa fa-caret-down"></i>
@@ -60,7 +63,7 @@
                             </span>
                         </div>
                         <div class="tasks">
-                            <i class="fa fa-check-circle"></i>
+                            <i class="fa fa-times-circle"></i></i>
                             <span>Interview John H.</span>
                             <span class="desc-container-green">
                                 Recruiting
@@ -72,6 +75,39 @@
                             <span class="desc-container-orange">
                                 mobile
                             </span>
+                        </div>
+                    </div>
+                    <div class="Upcoming">
+                        <div id="stitleupcoming">
+                            <i class="fa fa-caret-down"></i>
+                            <span><strong>Upcoming</strong></span>
+                        </div>
+                        <div class="tasks">
+                            <div class="tasks">
+                                <i class="fa fa-times-circle"></i>
+                                <span>Schedule meeting with Alex</span>
+                            </div>
+                            <div class="tasks">
+                                <i class="fa fa-check-circle"></i>
+                                <span>Homepage refresh</span>
+                                <span class="desc-container-fucsia">
+                                    Website
+                                </span>
+                            </div>
+                            <div class="tasks">
+                                <i class="fa fa-check-circle"></i>
+                                <span>Onboard new Sales team members</span>
+                                <span class="desc-container-lightgreen">
+                                    Sales
+                                </span>
+                            </div>
+                            <div class="tasks">
+                                <i class="fa fa-check-circle"></i>
+                                <span>Review editorial calendar</span>
+                                <span class="desc-container-blue">
+                                    Editorial
+                                </span>
+                            </div>
                         </div>
                     </div>
                 </section>
