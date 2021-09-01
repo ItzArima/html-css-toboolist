@@ -5,12 +5,14 @@
 .maintitle{
     vertical-align: middle;
     font-size: 50px ;
+    font-weight: 600;
 }
 
 button{
     border-radius: 5px;
     padding: 10px 32px;
     border: 0;
+    cursor: pointer;
 }
 
 #subm_but{
@@ -47,48 +49,43 @@ html{
   background-color: #45abea; 
   color: white;
   border-radius: 8px;
-  font-size: 10px;
-  padding: 2px 10px;
+  font-size: 8px;
+  padding: 2px 8px;
 }
 
 .desc-container-purple{
     background-color: #9c72e4; 
     color: white;
     border-radius: 8px;
-    font-size: 10px;
-    padding: 2px 10px;  
+    padding: 2px 8px;  
 }
 
 .desc-container-green{
     background-color: #64c0a9; 
     color: white;
     border-radius: 8px;
-    font-size: 10px;
-    padding: 2px 10px; 
+    padding: 2px 8px; 
 }
 
 .desc-container-orange{
     background-color: #f29e33; 
   color: white;
   border-radius: 8px;
-  font-size: 10px;
-  padding: 2px 10px;
+  padding: 2px 8px;
 }
 
 .desc-container-fucsia{
     background-color: #d863a1; 
   color: white;
   border-radius: 8px;
-  font-size: 10px;
-  padding: 2px 10px;
+  padding: 2px 8px;
 }
 
 .desc-container-lightgreen{
     background-color: #b0c926; 
   color: white;
   border-radius: 8px;
-  font-size: 10px;
-  padding: 2px 10px;
+  padding: 2px 8px;
 }
 
 .NewTasks{
@@ -104,14 +101,18 @@ html{
     margin: 30px 0;
 }
 
-.upcoming{
-
-}
-
 .tasks{
     margin: 5px 0;
 }
 
 #stitle{
     font-size: 20px;
+}
+
+#f{
+    font-size: 8px;
+}
+
+#g{
+    color: green;
 }
