@@ -97,6 +97,7 @@ html{
 
 .contenuto{
     padding-left: 30px;
+    font-size: 14px;
 }
 
 .today{
@@ -105,4 +106,12 @@ html{
 
 .upcoming{
 
+}
+
+.tasks{
+    margin: 5px 0;
+}
+
+#stitle{
+    font-size: 20px;
 }
